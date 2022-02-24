@@ -113,6 +113,9 @@ header .head button:hover {
   width: 100%;
 }
 @media (max-width: 767px) {
+  header {
+    background-image: url(../images/bg-hero-mobile.svg);
+  }
   .landing {
     flex-direction: column;
   }
